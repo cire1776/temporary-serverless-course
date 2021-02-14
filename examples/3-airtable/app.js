@@ -19,7 +19,7 @@ const fetchData = async () => {
 
       result.innerHTML = html.join("");
     } catch (error) {
-        result.innerHTML = '<h4>Threre was an error</h4>'
+        result.innerHTML = `<h4>Threre was an error: ${error}</h4>`
     } 
 
 }

@@ -47,7 +47,7 @@ exports.handler = async (event, context) => {
     } catch (error) {
         return {
             statusCode: 500,
-            body: 'An error occurred.  Please try again later.'
+            body: `An error occurred.  Please try again later. ${error}`
         }
     }
 
